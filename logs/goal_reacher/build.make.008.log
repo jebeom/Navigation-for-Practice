@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target reach_goal[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/reach_goal.dir/src/reach_goal.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/jebeom/kist_slam_navi/catkin_ws/devel/.private/goal_reacher/lib/goal_reacher/reach_goal[0m
+[100%] Built target reach_goal

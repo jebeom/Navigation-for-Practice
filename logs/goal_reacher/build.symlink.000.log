@@ -1,0 +1,4 @@
+Symlinking /home/jebeom/kist_slam_navi/catkin_ws/devel/share/goal_reacher/cmake/goal_reacherConfig.cmake
+Symlinking /home/jebeom/kist_slam_navi/catkin_ws/devel/share/goal_reacher/cmake/goal_reacherConfig-version.cmake
+Symlinking /home/jebeom/kist_slam_navi/catkin_ws/devel/lib/goal_reacher/reach_goal
+Symlinking /home/jebeom/kist_slam_navi/catkin_ws/devel/lib/pkgconfig/goal_reacher.pc

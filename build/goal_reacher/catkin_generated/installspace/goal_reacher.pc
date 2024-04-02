@@ -1,0 +1,8 @@
+prefix=/home/jebeom/kist_slam_navi/catkin_ws/install
+
+Name: goal_reacher
+Description: Description of goal_reacher
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
