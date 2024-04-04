@@ -1,2 +1,2 @@
 * linguist-vendored
-*.ros linguist-vendored=false
+*.c++ linguist-vendored=true
