@@ -18,9 +18,9 @@ private:
 
 public:
     GoalReacher() : ac("move_base", true), goal_received(false) {
-        // Rviz에서 설정한 목적지를 받는 구독자
+        // Rviz에서 설정한 목적지를 받는 subscriber
         goal_sub = nh.subscribe("/move_base_simple/goal", 1, &GoalReacher::goalCallback, this);
-        // 현재 위치를 받는 구독자
+        // 현재 위치를 받는 subscriber
         amcl_sub = nh.subscribe("/amcl_pose", 1, &GoalReacher::amclPoseCallback, this);
 
         while(!ac.waitForServer(ros::Duration(5.0))){
@@ -41,7 +41,7 @@ public:
         if (distance < 0.1) {
             ROS_INFO("Goal reached, stopping the robot");
             ac.cancelAllGoals(); // 움직임을 종료
-            goal_received = false; // 목적지 도달 플래그 재설정
+            goal_received = false; // 플래그 재설정
         }
     }
 
