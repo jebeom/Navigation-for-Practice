@@ -1,8 +1,8 @@
-## KIST SLAM & Navigation for Mobile Manipulator
+## Navigation Simulation
 
-I utilized the [TurtleBot3 open-source](https://github.com/ROBOTIS-GIT/turtlebot3) to perform SLAM and navigation on a new platform (Mobile Manipulator). 
+I utilized the [TurtleBot3 open-source](https://github.com/ROBOTIS-GIT/turtlebot3) to perform SLAM and navigation on a new platform (Mobile Manipulator). During this process, I tuned parameters within nodes such as AMCL and move_base, and modified packages related to the altered platform. 
 
-During this process, I tuned parameters within nodes such as AMCL and move_base, and modified packages related to the altered platform.
+In addition, I developed a **new node(reach_goal)** that terminates control upon approaching the destination to enhance navigation stability in the vicinity.
 
 ---
 ## Quick Run 
@@ -14,6 +14,4 @@ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=/home/jeb
 rosrun goal_reacher reach_goal
 ```
 
-### Real World
 
-to be updated
