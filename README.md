@@ -1,6 +1,8 @@
 ## SLAM & Navigation
 
-I utilized the [cartographer](https://github.com/cartographer-project/cartographer_ros) and [TurtleBot3 open-source](https://github.com/ROBOTIS-GIT/turtlebot3) to perform SLAM and navigation on a new platform (Mobile Manipulator). During this process, I tuned parameters within nodes such as AMCL and move_base, and modified packages related to the altered platform. 
+I used the [cartographer](https://github.com/cartographer-project/cartographer_ros) and [TurtleBot3 open-source](https://github.com/ROBOTIS-GIT/turtlebot3) to perform SLAM and navigation on a new platform (Mobile Manipulator). During this process, I tuned parameters within nodes such as AMCL and move_base, and modified packages related to the altered platform. 
+
+Please refer to a different repository for information about the new platform.
 
 In addition, I developed a **new node(reach_goal)** that terminates control upon approaching the destination to enhance navigation stability in the vicinity.
 
