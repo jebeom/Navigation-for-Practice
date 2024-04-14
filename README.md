@@ -1,4 +1,4 @@
-## Navigation Simulation
+## Navigation
 
 I utilized the [TurtleBot3 open-source](https://github.com/ROBOTIS-GIT/turtlebot3) to perform SLAM and navigation on a new platform (Mobile Manipulator). During this process, I tuned parameters within nodes such as AMCL and move_base, and modified packages related to the altered platform. 
 
